@@ -17,4 +17,6 @@ input/output:
 
 程式模組說明:
 module clock(output reg [6:0] seg,//com選擇的七段顯示器seg_m1,//分鐘的較高位的七段顯示器,//seg_m0分鐘的較低位的七段顯示器seg_s1,//秒鐘的較高位的七段顯示器seg_s0,//秒鐘的較低位的七段顯示器 output reg [3:0] com,//com用來選擇當前的七段顯示器output reg buzzer,//蜂鳴器控制 input clk,//colck clear ,//時間重置 input pause_time//時間暫停); 
+
+
 module div_freq(input clk ,output reg clk_div,output reg scr_clk_div);//產生clock
